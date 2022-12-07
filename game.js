@@ -47,7 +47,7 @@ let chaptersObj = {
     deux : {
         subtitle: "Transport",
         text:"Vous partez en même temps que manger et vous décidez de prendre un transport.",
-        img: "./assets/transport.jpg",
+        img: "./assets/transport.JPG",
         options: [{ texte: "autobus", action: "goToChapter('autobus')"},
     { texte:"hélicoptère", action: "goToChapter('hélicoptère')"},
  { texte:"métro", action: "goToChapter('metro')"},
@@ -70,7 +70,7 @@ let chaptersObj = {
     metro : {
         subtitle: "Métro",
         text:"Vous prenez le métro et vous arrivez au travail. Vous voyez vos collègues. Que faites-vous?",
-        img: "./assets/metro.jpg",
+        img: "./assets/métro.jpg",
         options:[{ texte:"ignorer", action: "goToChapter('ignorer')"},
          {texte:"saluer", action: "goToChapter('saluer')"},]
     },
