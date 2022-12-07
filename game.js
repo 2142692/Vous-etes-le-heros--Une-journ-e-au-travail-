@@ -70,7 +70,7 @@ let chaptersObj = {
     metro : {
         subtitle: "Métro",
         text:"Vous prenez le métro et vous arrivez au travail. Vous voyez vos collègues. Que faites-vous?",
-        img: "./assets/métro.jpg",
+        img: "./assets/metro.jpg",
         options:[{ texte:"ignorer", action: "goToChapter('ignorer')"},
          {texte:"saluer", action: "goToChapter('saluer')"},]
     },
